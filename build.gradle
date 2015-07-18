@@ -4,7 +4,7 @@ apply plugin: 'jetty'
 
 repositories {
     maven{ 
-    	url 'http://localhost:8181/artifactory/libs-release'
+    	url 'http://localhost:8081/artifactory/libs-release'
     	credentials {
                 username "admin"
                 password "password"
